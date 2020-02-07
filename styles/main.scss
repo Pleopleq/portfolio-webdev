@@ -1,0 +1,153 @@
+//GLOBAL STYLES AND VARIABLES
+$dark-blue-main:hsl(218, 28%, 13%);
+$light-dark-blue: hsl(219, 30%, 20%);
+$text-color: hsl(0, 0%, 100%);
+$cyan: hsl(176, 68%, 64%);
+$light-blue: hsl(198, 60%, 50%);
+$font-size-mobile: 14px;
+$content-font: 'Roboto', sans-serif;
+$header-font: 'Roboto Condensed', sans-serif;
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+html {
+    h1,h2,h3,h4,h5{
+    font-family: $header-font;
+    }
+    background-color: $dark-blue-main;
+    color: $text-color;
+}
+
+//PERSONAL INFO STYLES
+
+.blockPersonalInfo{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 2rem;
+    .blockPersonalInfo__image{
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    .blockPersonalInfo__image img{
+        width: 8rem;
+        border: 1px solid $light-dark-blue;
+        max-width: 240px;
+    }
+    .blockPersonalInfo__title{
+        grid-column-start: 2;
+        grid-column-end: 6;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 0.8rem;
+        letter-spacing: 1px;
+            .blockPersonalInfo__title-name:after {
+                content: ""; 
+                display: block; 
+                width: 12rem; 
+                padding-bottom: 0.5rem;
+                border-bottom: 2px solid $text-color;
+            }
+            .blockPersonalInfo__title-name{
+                padding-bottom: 0.5rem;
+            }
+            .blockPersonalInfo__title-position{
+            padding-bottom: 24px;
+            }
+    }
+
+    .blockPersonalInfo__resume{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    margin-top: 1.5rem;
+    padding: 0rem 2rem 0rem 2rem;
+    letter-spacing: 0.7px;
+    text-align: left;
+    line-height: 1.5rem;
+        .blockPersonalInfo__resume-content{
+            font-family: $content-font;
+        }
+    }
+}
+
+//TECNOLOGIES STYLES
+
+.blockTecnologies{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 3.5rem;
+    grid-gap: 1rem;
+    font-family: $content-font;
+    .blockTecnologies__frontEnd{
+        display: grid;
+        background-color: $light-dark-blue;
+        border-radius: 20px;
+            .blockTecnologies__fronEnd-header{ 
+                padding-top: 12px;
+                text-align: center;
+            }
+            .blockTecnologies__fronEnd-logo{
+                width: 5rem;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .blockTecnologies__frontEnd-list{
+                list-style-type:none;
+                text-align: center;
+                letter-spacing: 1px;
+            }
+            .blockTecnologies__frontEnd-list li {
+                margin-bottom: 0.4rem;
+            }
+    }
+
+    .blockTecnologies__backEnd{
+        display: grid;
+        background-color: $light-dark-blue;
+
+        border-radius: 20px;
+            .blockTecnologies__backEnd-header{ 
+                padding-top: 12px;
+                text-align: center;
+            }
+            .blockTecnologies__backEnd-logo{
+                width: 5rem;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .blockTecnologies__backEnd-list{
+                list-style-type:none;
+                text-align: center;
+                letter-spacing: 1px;
+            }
+            .blockTecnologies__backEnd-list li {
+                margin-bottom: 0.4rem;
+            }
+    }
+
+    .blockTecnologies__devTools{
+        display: grid;
+        background-color: $light-dark-blue;
+        border-radius: 20px;
+        .blockTecnologies__devTools-header{ 
+            padding-top: 12px;
+            text-align: center;
+        }
+        .blockTecnologies__devTools-logo{
+            width: 5rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .blockTecnologies__devTools-list{
+            list-style-type:none;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+        .blockTecnologies__devTools-list li {
+            margin-bottom: 0.4rem;
+        }
+    }
+}
