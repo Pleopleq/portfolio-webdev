@@ -151,3 +151,45 @@ html {
         }
     }
 }
+
+//PROJECTS STYLES
+
+.blockProject{
+    display:grid;
+    padding: 4rem;
+    color: $dark-blue-main;
+    grid-gap: 2rem;
+    .blockProject__project{
+        background: $text-color;
+        display: grid;
+        width: 100%;
+        border-radius: 15px;
+        .blockProject__project-sample {
+            display: flex;
+        }
+        .blockProject__project-sample img{
+            width: 100%;
+        }
+        .blockProject__project-header{
+            text-align: center;
+            text-transform: uppercase;
+            padding-bottom: 1rem;
+        }
+        .blockProject__project-description{
+            font-family: $content-font;
+            text-align: left;
+        }
+        .blockProject__project-buttons{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: space-evenly;
+        }
+        .blockProject__project-buttons button{
+            border: none;
+            padding: 1rem;
+            background-color: $text-color;
+            font-family: $header-font;
+            border-radius: 25px;
+        }
+    }
+}
