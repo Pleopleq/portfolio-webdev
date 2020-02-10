@@ -2,7 +2,6 @@
 $dark-blue-main:hsl(218, 28%, 13%);
 $light-dark-blue: hsl(219, 30%, 20%);
 $text-color: hsl(0, 0%, 100%);
-$cyan: hsl(176, 68%, 64%);
 $light-blue: hsl(198, 60%, 50%);
 $font-size-mobile: 14px;
 $content-font: 'Roboto', sans-serif;
@@ -156,9 +155,10 @@ html {
 
 .blockProject{
     display:grid;
-    padding: 4rem;
+    padding: 1rem;
     color: $dark-blue-main;
-    grid-gap: 2rem;
+    grid-gap: 3rem;
+    margin-bottom: 2rem;
     .blockProject__project{
         background: $text-color;
         display: grid;
@@ -173,14 +173,16 @@ html {
         .blockProject__project-header{
             text-align: center;
             text-transform: uppercase;
-            padding-bottom: 1rem;
+            padding-bottom: 0.5rem;
             padding-top: 0.5rem;
             letter-spacing: 0.8px;
         }
         .blockProject__project-description{
+            font-size: 12px;
+            font-weight: 700;
             font-family: $content-font;
             text-align: left;
-            padding: 0rem 1rem 0rem 1rem;
+            padding: 0.5rem;
         }
         .blockProject__project-buttons{
             display: grid;
@@ -218,12 +220,12 @@ html {
         margin-bottom: 1rem;
     }
     .blockSocials__mail a{
-        color: $cyan;
+        color: $light-blue;
         text-decoration: none;
         margin-bottom: 1rem;
     }
     .blockSocials__phone a{
         text-decoration: none;
-        color: $cyan;
+        color: $light-blue;
     }
 }
