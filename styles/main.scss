@@ -53,7 +53,7 @@ html {
                 padding-bottom: 0.5rem;
             }
             .blockPersonalInfo__title-position{
-            padding-bottom: 24px;
+            padding-bottom: 18px;
             }
     }
 
@@ -279,12 +279,33 @@ html{
     font-size: 24px;
 }
 
-.blockProject{
-    margin: 4rem;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1rem;
-}
+    .blockProject{
+        margin: 4rem;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1rem;
+    }
+    .blockProject{
+        margin: 5rem;
+    }
+    .blockSocials{  
+        padding: 0.8rem;    
+        justify-content: flex-start;
+        .blockSocials__icons{
+            list-style-type: none;
+            padding-top: 0.2rem;
+            margin-left: 5rem;
+            margin-right: 5rem;
+        }
+    }
+    .blockSocials__mail{
+        text-align: center;
+        margin-left: 2rem;
+    }
+    .blockSocials__phone{
+        text-align: center;
+        margin-bottom: 1rem;
+    }
 }
 
 @media (min-width: 1800px) {
