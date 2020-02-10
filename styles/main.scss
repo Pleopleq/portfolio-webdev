@@ -190,7 +190,7 @@ html {
         }
         .blockProject__project-buttons button{
             border: none;
-            padding: 1rem;
+            margin: 1rem;
             background-color: $text-color;
             font-family: $header-font;
             border-radius: 25px;
@@ -199,6 +199,11 @@ html {
             color: $dark-blue-main;
         }
     }
+}
+
+#ecommProject{
+    grid-column-start:1;
+    grid-column-end:3;
 }
 
 //FOOTER SOCIALS STYLES

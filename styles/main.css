@@ -172,13 +172,18 @@ html h1, html h2, html h3, html h4, html h5 {
 }
 .blockProject .blockProject__project .blockProject__project-buttons button {
   border: none;
-  padding: 1rem;
+  margin: 1rem;
   background-color: white;
   font-family: "Roboto Condensed", sans-serif;
   border-radius: 25px;
 }
 .blockProject .blockProject__project .blockProject__project-buttons a {
   color: #181f2a;
+}
+
+#ecommProject {
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 .blockSocials {
