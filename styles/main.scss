@@ -34,7 +34,6 @@ html {
     .blockPersonalInfo__image img{
         width: 8rem;
         border: 1px solid $light-dark-blue;
-        max-width: 240px;
     }
     .blockPersonalInfo__title{
         grid-column-start: 2;
@@ -227,5 +226,68 @@ html {
     .blockSocials__phone a{
         text-decoration: none;
         color: $light-blue;
+    }
+}
+
+@media (min-width: 768px) {
+    html{
+        font-size: 22px;
+    }
+  }
+
+@media (min-width: 1024px) {
+    .blockPersonalInfo{ 
+        display: flex;
+        flex-wrap: wrap-reverse;
+        margin: 2rem;
+        .blockPersonalInfo__title{ 
+            align-self: flex-start; 
+            justify-self: end;
+            font-size: 28px;
+        }
+        .blockPersonalInfo__image{ 
+            margin-left: 44px;
+            align-self: flex-start;
+        }
+        .blockPersonalInfo__image img{ 
+            width: 10rem;
+        }
+        .blockPersonalInfo__resume{
+            order: -1;
+        }
+    }
+    .blockTecnologies{
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .blockProject{
+        margin: 5rem;
+    }
+    .blockSocials{  
+        padding: 1rem;
+        justify-content: flex-start;
+        .blockSocials__icons{
+            list-style-type: none;
+            margin-left: 5rem;
+            margin-right: 5rem;
+        }
+    }
+  }
+
+  @media (min-width: 1440px) {
+html{
+    font-size: 24px;
+}
+.blockProject{
+    margin: 4rem;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+}
+
+@media (min-width: 1800px) {
+    html{
+        font-size: 42px;
     }
 }
