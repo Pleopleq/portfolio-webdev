@@ -156,14 +156,15 @@ html h1, html h2, html h3, html h4, html h5 {
   text-transform: uppercase;
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.6px;
 }
 .blockProject .blockProject__project .blockProject__project-description {
-  font-size: 12px;
+  font-size: 0.6em;
   font-weight: 700;
   font-family: "Roboto", sans-serif;
   text-align: left;
   padding: 0.5rem;
+  line-height: 1.5em;
 }
 .blockProject .blockProject__project .blockProject__project-buttons {
   display: grid;
@@ -179,6 +180,7 @@ html h1, html h2, html h3, html h4, html h5 {
 }
 .blockProject .blockProject__project .blockProject__project-buttons a {
   color: #181f2a;
+  letter-spacing: 1.5px;
 }
 
 #ecommProject {

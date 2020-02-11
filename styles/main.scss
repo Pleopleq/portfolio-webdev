@@ -174,14 +174,15 @@ html {
             text-transform: uppercase;
             padding-bottom: 0.5rem;
             padding-top: 0.5rem;
-            letter-spacing: 0.8px;
+            letter-spacing: 0.6px;
         }
         .blockProject__project-description{
-            font-size: 12px;
+            font-size: 0.6em;
             font-weight: 700;
             font-family: $content-font;
             text-align: left;
             padding: 0.5rem;
+            line-height: 1.5em;
         }
         .blockProject__project-buttons{
             display: grid;
@@ -197,6 +198,7 @@ html {
         }
         .blockProject__project-buttons a{
             color: $dark-blue-main;
+            letter-spacing: 1.5px;
         }
     }
 }
