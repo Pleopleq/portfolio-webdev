@@ -159,7 +159,7 @@ html h1, html h2, html h3, html h4, html h5 {
   letter-spacing: 0.6px;
 }
 .blockProject .blockProject__project .blockProject__project-description {
-  font-size: 0.6em;
+  font-size: 0.5em;
   font-weight: 700;
   font-family: "Roboto", sans-serif;
   text-align: left;
@@ -299,7 +299,7 @@ html h1, html h2, html h3, html h4, html h5 {
 }
 @media (min-width: 1800px) {
   html {
-    font-size: 42px;
+    font-size: 32px;
   }
 }
 
