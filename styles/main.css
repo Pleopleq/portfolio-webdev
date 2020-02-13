@@ -188,6 +188,10 @@ html h1, html h2, html h3, html h4, html h5 {
   grid-column-end: 3;
 }
 
+#emailInResume {
+  color: white;
+}
+
 .blockSocials {
   background-color: #242e42;
   padding: 4rem;
