@@ -50,12 +50,12 @@ html h1, html h2, html h3, html h4, html h5 {
   grid-column-end: 6;
   margin-top: 1.5rem;
   padding: 0rem 2rem 0rem 2rem;
-  letter-spacing: 0.7px;
-  text-align: left;
+  text-align: justify;
   line-height: 1.5rem;
 }
 .blockPersonalInfo .blockPersonalInfo__resume .blockPersonalInfo__resume-content {
   font-family: "Roboto", sans-serif;
+  letter-spacing: 0.8px;
 }
 
 .blockTecnologies {
