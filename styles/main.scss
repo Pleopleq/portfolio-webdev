@@ -19,6 +19,7 @@ html {
     }
     background-color: $dark-blue-main;
     color: $text-color;
+    font-size: 12px;
 }
 
 //PERSONAL INFO STYLES
@@ -158,6 +159,7 @@ html {
     color: $dark-blue-main;
     grid-gap: 3rem;
     margin-bottom: 2rem;
+    font-size: 0.8em;
     .blockProject__project{
         background: $text-color;
         display: grid;
@@ -177,11 +179,10 @@ html {
             letter-spacing: 0.6px;
         }
         .blockProject__project-description{
-            font-size: 0.5em;
             font-weight: 700;
             font-family: $content-font;
             text-align: left;
-            padding: 0.5rem;
+            padding: 0.5em;
             line-height: 1.5em;
         }
         .blockProject__project-buttons{
@@ -242,11 +243,19 @@ html {
 
 @media (min-width: 768px) {
     html{
-        font-size: 22px;
+        font-size: 14px;
+    }
+    .blockProject{
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
     }
   }
 
 @media (min-width: 1024px) {
+    html{
+        font-size: 15px;
+    }
     .blockPersonalInfo{ 
         display: flex;
         flex-wrap: wrap-reverse;
@@ -272,7 +281,10 @@ html {
         grid-template-columns: 1fr 1fr 1fr;
     }
     .blockProject{
-        margin: 5rem;
+        margin: 3rem;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1rem;
     }
     .blockSocials{  
         padding: 1rem;
@@ -285,9 +297,9 @@ html {
     }
   }
 
-  @media (min-width: 1440px) {
+@media (min-width: 1440px) {
 html{
-    font-size: 24px;
+    font-size: 18px;
 }
 
     .blockProject{
@@ -321,6 +333,12 @@ html{
 
 @media (min-width: 1800px) {
     html{
-        font-size: 32px;
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 2560px) {
+    html{
+        font-size: 24px;
     }
 }
