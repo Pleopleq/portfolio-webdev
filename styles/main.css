@@ -2,18 +2,16 @@
   padding: 0%;
   margin: 0%;
 }
+
 html {
   background-color: #181f2a;
-  color: #fff;
+  color: white;
   font-size: 12px;
 }
-html h1,
-html h2,
-html h3,
-html h4,
-html h5 {
+html h1, html h2, html h3, html h4, html h5 {
   font-family: "Roboto Condensed", sans-serif;
 }
+
 .blockPersonalInfo {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -35,21 +33,17 @@ html h5 {
   padding-right: 0.8rem;
   letter-spacing: 1px;
 }
-.blockPersonalInfo
-  .blockPersonalInfo__title
-  .blockPersonalInfo__title-name:after {
+.blockPersonalInfo .blockPersonalInfo__title .blockPersonalInfo__title-name:after {
   content: "";
   display: block;
   width: 12rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid white;
 }
 .blockPersonalInfo .blockPersonalInfo__title .blockPersonalInfo__title-name {
   padding-bottom: 0.5rem;
 }
-.blockPersonalInfo
-  .blockPersonalInfo__title
-  .blockPersonalInfo__title-position {
+.blockPersonalInfo .blockPersonalInfo__title .blockPersonalInfo__title-position {
   padding-bottom: 18px;
 }
 .blockPersonalInfo .blockPersonalInfo__resume {
@@ -60,12 +54,11 @@ html h5 {
   text-align: justify;
   line-height: 1.5rem;
 }
-.blockPersonalInfo
-  .blockPersonalInfo__resume
-  .blockPersonalInfo__resume-content {
+.blockPersonalInfo .blockPersonalInfo__resume .blockPersonalInfo__resume-content {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.8px;
 }
+
 .blockTecnologies {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
@@ -78,9 +71,7 @@ html h5 {
   background-color: #242e42;
   border-radius: 20px;
 }
-.blockTecnologies
-  .blockTecnologies__frontEnd
-  .blockTecnologies__fronEnd-header {
+.blockTecnologies .blockTecnologies__frontEnd .blockTecnologies__fronEnd-header {
   padding-top: 12px;
   text-align: center;
 }
@@ -94,10 +85,7 @@ html h5 {
   text-align: center;
   letter-spacing: 1px;
 }
-.blockTecnologies
-  .blockTecnologies__frontEnd
-  .blockTecnologies__frontEnd-list
-  li {
+.blockTecnologies .blockTecnologies__frontEnd .blockTecnologies__frontEnd-list li {
   margin-bottom: 0.4rem;
 }
 .blockTecnologies .blockTecnologies__backEnd {
@@ -119,10 +107,7 @@ html h5 {
   text-align: center;
   letter-spacing: 1px;
 }
-.blockTecnologies
-  .blockTecnologies__backEnd
-  .blockTecnologies__backEnd-list
-  li {
+.blockTecnologies .blockTecnologies__backEnd .blockTecnologies__backEnd-list li {
   margin-bottom: 0.4rem;
 }
 .blockTecnologies .blockTecnologies__devTools {
@@ -130,9 +115,7 @@ html h5 {
   background-color: #242e42;
   border-radius: 20px;
 }
-.blockTecnologies
-  .blockTecnologies__devTools
-  .blockTecnologies__devTools-header {
+.blockTecnologies .blockTecnologies__devTools .blockTecnologies__devTools-header {
   padding-top: 12px;
   text-align: center;
 }
@@ -146,12 +129,10 @@ html h5 {
   text-align: center;
   letter-spacing: 1px;
 }
-.blockTecnologies
-  .blockTecnologies__devTools
-  .blockTecnologies__devTools-list
-  li {
+.blockTecnologies .blockTecnologies__devTools .blockTecnologies__devTools-list li {
   margin-bottom: 0.4rem;
 }
+
 .blockProject {
   display: grid;
   padding: 1rem;
@@ -161,7 +142,7 @@ html h5 {
   font-size: 0.8em;
 }
 .blockProject .blockProject__project {
-  background: #fff;
+  background: white;
   display: grid;
   width: 100%;
   border-radius: 15px;
@@ -194,7 +175,7 @@ html h5 {
 .blockProject .blockProject__project .blockProject__project-buttons button {
   border: none;
   margin: 1rem;
-  background-color: #fff;
+  background-color: white;
   font-family: "Roboto Condensed", sans-serif;
   border-radius: 25px;
 }
@@ -202,13 +183,16 @@ html h5 {
   color: #181f2a;
   letter-spacing: 1.5px;
 }
+
 #ecommProject {
   grid-column-start: 1;
   grid-column-end: 3;
 }
+
 #emailInResume {
-  color: #fff;
+  color: white;
 }
+
 .blockSocials {
   background-color: #242e42;
   padding: 4rem;
@@ -220,7 +204,7 @@ html h5 {
   justify-content: space-between;
 }
 .blockSocials .blockSocials__icons a {
-  color: #fff;
+  color: white;
 }
 .blockSocials .blockSocials__mail {
   margin-bottom: 1rem;
@@ -234,10 +218,12 @@ html h5 {
   text-decoration: none;
   color: #339ecc;
 }
+
 @media (min-width: 768px) {
   html {
     font-size: 14px;
   }
+
   .blockProject {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -248,6 +234,7 @@ html h5 {
   html {
     font-size: 15px;
   }
+
   .blockPersonalInfo {
     display: flex;
     flex-wrap: wrap-reverse;
@@ -268,16 +255,19 @@ html h5 {
   .blockPersonalInfo .blockPersonalInfo__resume {
     order: -1;
   }
+
   .blockTecnologies {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
   .blockProject {
     margin: 3rem;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
   }
+
   .blockSocials {
     padding: 1rem;
     justify-content: flex-start;
@@ -292,15 +282,18 @@ html h5 {
   html {
     font-size: 18px;
   }
+
   .blockProject {
     margin: 4rem;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
   }
+
   .blockProject {
     margin: 5rem;
   }
+
   .blockSocials {
     padding: 0.8rem;
     justify-content: flex-start;
@@ -311,10 +304,12 @@ html h5 {
     margin-left: 5rem;
     margin-right: 5rem;
   }
+
   .blockSocials__mail {
     text-align: center;
     margin-left: 2rem;
   }
+
   .blockSocials__phone {
     text-align: center;
     margin-bottom: 1rem;
@@ -330,3 +325,5 @@ html h5 {
     font-size: 24px;
   }
 }
+
+/*# sourceMappingURL=main.css.map */
