@@ -85,6 +85,9 @@ html h1, html h2, html h3, html h4, html h5 {
   text-align: center;
   letter-spacing: 1px;
 }
+.blockTecnologies .blockTecnologies__frontEnd .blockTecnologies__frontEnd-list li:first-child {
+  margin-top: 0.4rem;
+}
 .blockTecnologies .blockTecnologies__frontEnd .blockTecnologies__frontEnd-list li {
   margin-bottom: 0.4rem;
 }
@@ -107,6 +110,9 @@ html h1, html h2, html h3, html h4, html h5 {
   text-align: center;
   letter-spacing: 1px;
 }
+.blockTecnologies .blockTecnologies__backEnd .blockTecnologies__backEnd-list li:first-child {
+  margin-top: 0.4rem;
+}
 .blockTecnologies .blockTecnologies__backEnd .blockTecnologies__backEnd-list li {
   margin-bottom: 0.4rem;
 }
@@ -128,6 +134,9 @@ html h1, html h2, html h3, html h4, html h5 {
   list-style-type: none;
   text-align: center;
   letter-spacing: 1px;
+}
+.blockTecnologies .blockTecnologies__devTools .blockTecnologies__devTools-list li:first-child {
+  margin-top: 0.4rem;
 }
 .blockTecnologies .blockTecnologies__devTools .blockTecnologies__devTools-list li {
   margin-bottom: 0.4rem;
