@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
     <link rel="icon" href="./imgs/WebsiteMale.svg" type="image/x-icon">
     <title>Felix Anducho Portfolio</title>
 
@@ -156,15 +156,15 @@
 
     <!-- CONTACT FORM -->
 <div class="blockContact">
-    <form action="POST" class="blockContact__form">
+    <form method="post" class="pageclip-form blockContact__form" action="https://send.pageclip.co/hBTfLFhi6QiXbRYRWsJh0vy7yYQcxwon/contact-form">
         <h3 class="blockContact__title">Contact me!</h3>
         <label for="email">Email</label>
-        <input type="email" class="blockContact__form-email" placeholder="Email">
+        <input name="email" type="email" class="blockContact__form-email" placeholder="Email">
         <label for="name">Name</label>
-        <input type="text" class="blockContact__form-name" placeholder="Name">
+        <input name="name" type="text" class="blockContact__form-name" placeholder="Name">
         <label for="email">Message</label>
         <textarea name="message" class="blockContact__form-message"></textarea>
-        <button type="submit" class="blockContact__form-submit">Submit</button>
+        <button type="submit" class="blockContact__form-submit pageclip-form__submit">Submit</button>
     </form>
 </div>
 
@@ -181,6 +181,7 @@
     <p class="blockSocials__mail"><i class="fas fa-envelope-open-text"></i><a href = "mailto: felix.anducho74@gmail.com"> Contact me!</a></p>
     <p class="blockSocials__phone"><i class="fas fa-phone"></i> <a href="tel:01525547720448">Call me!</a></p>
 </footer>
-
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
 </body>
 </html>
