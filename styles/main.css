@@ -202,6 +202,66 @@ html h1, html h2, html h3, html h4, html h5 {
   color: white;
 }
 
+.blockContact {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 4rem;
+}
+.blockContact .blockContact__title {
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.02rem;
+}
+.blockContact .blockContact__form {
+  background-color: #2e3b55;
+  grid-column-start: 2;
+  padding: 2.25rem;
+  display: grid;
+  border-radius: 2rem;
+  grid-template-rows: 0.5fr 1.25fr 0.5fr 1.25fr 0.5fr 1.25fr;
+}
+@media (min-width: 800px) {
+  .blockContact .blockContact__form {
+    width: 70vw;
+  }
+}
+@media (min-width: 1200px) {
+  .blockContact .blockContact__form {
+    width: 60vw;
+  }
+}
+.blockContact .blockContact__form label {
+  align-self: flex-end;
+  color: white;
+}
+.blockContact .blockContact__form .blockContact__form-email {
+  height: 2rem;
+}
+.blockContact .blockContact__form .blockContact__form-name {
+  height: 2rem;
+}
+.blockContact .blockContact__form .blockContact__form-message {
+  width: 18rem;
+  height: 5rem;
+  resize: none;
+}
+@media (min-width: 800px) {
+  .blockContact .blockContact__form .blockContact__form-message {
+    width: 60vw;
+  }
+}
+.blockContact .blockContact__form .blockContact__form-submit {
+  margin: 0 auto;
+  margin-top: 1.25rem;
+  border: none;
+  background-color: #339ecc;
+  color: #d8d7f5;
+  font-weight: 700;
+  padding: 0.5rem 1.25rem 0.5rem 1.25rem;
+  border-radius: 1rem;
+}
+
 .blockSocials {
   background-color: #242e42;
   padding: 4rem;

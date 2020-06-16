@@ -221,6 +221,68 @@ html {
     color: $text-color;
 }
 
+
+//CONTACT FORM
+
+.blockContact{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: $header-font;
+    padding: 4rem;
+
+    .blockContact__title{
+        font-size: 2rem;
+        font-weight: 400;
+        letter-spacing: 0.02rem;
+    }
+    .blockContact__form{
+        background-color: #2e3b55;
+        grid-column-start: 2;
+        padding: 2.25rem;
+        display: grid;
+        border-radius: 2rem;
+        grid-template-rows: 0.5fr 1.25fr 0.5fr 1.25fr 0.5fr 1.25fr;
+        @media (min-width: 800px) {
+            width: 70vw;
+        }
+        @media (min-width: 1200px) {
+            width: 60vw;
+        }
+        label{
+            align-self: flex-end;
+            color: white;
+        }
+        
+        .blockContact__form-email{
+            height: 2rem;
+        }
+        
+        .blockContact__form-name{
+            height: 2rem;
+        }
+        
+        .blockContact__form-message{
+            width: 18rem;
+            height: 5rem;
+            resize: none;
+            @media (min-width: 800px) {
+                width: 60vw;
+            }
+        }
+        
+        .blockContact__form-submit{
+            margin: 0 auto;
+            margin-top: 1.25rem;
+            border: none;
+            background-color: $light-blue;
+            color: rgb(216, 215, 245);
+            font-weight: 700;
+            padding: 0.5rem 1.25rem 0.5rem 1.25rem;
+            border-radius: 1rem;
+        }
+    }
+}
+
 //FOOTER SOCIALS STYLES
 
 .blockSocials{
