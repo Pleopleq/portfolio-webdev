@@ -167,7 +167,7 @@ html {
     color: $dark-blue-main;
     grid-gap: 3rem;
     margin-bottom: 2rem;
-    font-size: 0.8em;
+    font-size: 1em;
     .blockProject__project{
         background: $text-color;
         display: grid;
@@ -184,7 +184,8 @@ html {
             text-transform: uppercase;
             padding-bottom: 0.5rem;
             padding-top: 0.5rem;
-            letter-spacing: 0.6px;
+            font-size: 1rem;
+            letter-spacing: 0.4px;
         }
         .blockProject__project-description{
             font-weight: 700;
@@ -229,6 +230,7 @@ html {
     grid-template-columns: repeat(3, 1fr);
     font-family: $header-font;
     padding: 4rem;
+    font-size: 1rem;
 
     .blockContact__title{
         font-size: 2rem;
@@ -253,12 +255,14 @@ html {
             color: white;
         }
         
-        .blockContact__form-email{
+        .blockContact__form-email {
             height: 2rem;
+            padding: 0.2rem;
         }
         
         .blockContact__form-name{
             height: 2rem;
+            padding: 0.2rem;
         }
         
         .blockContact__form-message{
@@ -266,6 +270,9 @@ html {
             height: 5rem;
             resize: none;
             @media (min-width: 800px) {
+             width: 70vw;
+            }
+            @media (min-width: 1200px) {
                 width: 60vw;
             }
         }
@@ -298,6 +305,11 @@ html {
         color: $text-color;
     }
     .blockSocials__mail {
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+    .blockSocials__phone {
+        margin-left: 1rem;
         margin-bottom: 1rem;
     }
     .blockSocials__mail a{
