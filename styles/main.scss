@@ -201,19 +201,20 @@ html {
         }
         .blockProject__project-buttons button{
             border: none;
-            margin: 1rem;
+            margin: 0.5rem;
             background-color: $text-color;
             font-family: $header-font;
             border-radius: 25px;
         }
         .blockProject__project-buttons a{
             color: $dark-blue-main;
-            letter-spacing: 1.5px;
+            font-size: 16px;
         }
     }
 }
 
 #ecommProject{
+    margin: 1rem;
     grid-column-start:1;
     grid-column-end:3;
 }

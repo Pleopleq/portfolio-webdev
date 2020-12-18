@@ -184,17 +184,18 @@ html h1, html h2, html h3, html h4, html h5 {
 }
 .blockProject .blockProject__project .blockProject__project-buttons button {
   border: none;
-  margin: 1rem;
+  margin: 0.5rem;
   background-color: white;
   font-family: "Roboto Condensed", sans-serif;
   border-radius: 25px;
 }
 .blockProject .blockProject__project .blockProject__project-buttons a {
   color: #181f2a;
-  letter-spacing: 1.5px;
+  font-size: 16px;
 }
 
 #ecommProject {
+  margin: 1rem;
   grid-column-start: 1;
   grid-column-end: 3;
 }
