@@ -70,6 +70,7 @@ html h1, html h2, html h3, html h4, html h5 {
   display: grid;
   background-color: #242e42;
   border-radius: 20px;
+  padding: 1rem;
 }
 .blockTecnologies .blockTecnologies__frontEnd .blockTecnologies__fronEnd-header {
   padding-top: 12px;
@@ -95,6 +96,7 @@ html h1, html h2, html h3, html h4, html h5 {
   display: grid;
   background-color: #242e42;
   border-radius: 20px;
+  padding: 1rem;
 }
 .blockTecnologies .blockTecnologies__backEnd .blockTecnologies__backEnd-header {
   padding-top: 12px;
@@ -120,6 +122,7 @@ html h1, html h2, html h3, html h4, html h5 {
   display: grid;
   background-color: #242e42;
   border-radius: 20px;
+  padding: 1rem;
 }
 .blockTecnologies .blockTecnologies__devTools .blockTecnologies__devTools-header {
   padding-top: 12px;
